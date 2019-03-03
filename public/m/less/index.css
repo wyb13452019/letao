@@ -93,3 +93,49 @@ body {
 #footer a.active {
   color: orange;
 }
+#main {
+  padding: 45px 0;
+  height: 100vh;
+}
+#main .swiper-container {
+  height: 100%;
+}
+#main .swiper-container .swiper-slide {
+  height: auto;
+}
+#main .slider {
+  width: 100%;
+}
+#main .mui-scroll-wrapper {
+  position: relative;
+  height: 100%;
+}
+#main .mui-scroll-wrapper a {
+  display: block;
+}
+#main .mui-scroll-wrapper a img {
+  width: 100%;
+}
+#main .mui-scroll-wrapper a .nav {
+  padding: 10px;
+}
+#main .mui-scroll-wrapper .banner .left a {
+  display: flex;
+}
+#main .mui-scroll-wrapper .banner .left a img {
+  height: 120px;
+  width: 50%;
+}
+#main .mui-scroll-wrapper .banner .right a {
+  display: flex;
+  justify-content: center;
+}
+#main .mui-scroll-wrapper .banner .right a img {
+  height: 240px;
+}
+#main .mui-scroll-wrapper .brand,
+#main .mui-scroll-wrapper .sport,
+#main .mui-scroll-wrapper .women,
+#main .mui-scroll-wrapper .man {
+  padding: 10px;
+}

@@ -1,0 +1,72 @@
+@import 'base.less';
+
+
+#main {
+    padding: 45px 0;
+    height: 100vh;
+    // position: relative;
+
+ // swiper的内容滚动样式修改 给父容器高度固定100% 子容器高度auto
+ .swiper-container {
+    height: 100%;
+
+    // 子容器的高度 为auto
+    .swiper-slide {
+        height: auto;
+    }
+}
+    .slider {
+        width: 100%;
+    }
+    // mui的内容滚动样式修改 ,父元素固定高度100vh,相对定位,用padding留出头部和底部的区域
+    // 子元素也相对定位,不脱标保持与父元素一样的高度
+    .mui-scroll-wrapper {
+        position: relative;
+        height: 100%;
+
+        a {
+            display: block;
+
+            img {
+                width: 100%;
+            }
+
+            .nav {
+                padding: 10px;
+            }
+        }
+
+        .banner {
+            .left {
+                a {
+                    display: flex;
+
+                    img {
+                        height: 120px;
+                        width: 50%;
+                    }
+                }
+            }
+
+            .right {
+                a {
+                    display: flex;
+                    justify-content: center;
+
+                    img {
+                        height: 240px;
+                    }
+                }
+            }
+        }
+
+        .brand,
+        .sport,
+        .women,
+        .man {
+            padding: 10px;
+
+        }
+    }
+}
+
